@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "573198782934",
+    "project_id": "fir-notificationapp-3f68b",
+    "storage_bucket": "fir-notificationapp-3f68b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573198782934:android:9103120f31b811b44b9477",
+        "android_client_info": {
+          "package_name": "com.example.flutternotificationsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573198782934-s1cnnpamo3ahcdk5djotj7ir9qrvbtvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2z45yxCEvOFkTx48-3MYIkQRYrsH70O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573198782934-s1cnnpamo3ahcdk5djotj7ir9qrvbtvv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573198782934-1jk0kikrc11o1g4rbiqqubep5lrknk7s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutternotificationsapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573198782934:android:e04d7795dc0d07384b9477",
+        "android_client_info": {
+          "package_name": "com.example.notificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573198782934-s1cnnpamo3ahcdk5djotj7ir9qrvbtvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2z45yxCEvOFkTx48-3MYIkQRYrsH70O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573198782934-s1cnnpamo3ahcdk5djotj7ir9qrvbtvv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573198782934-1jk0kikrc11o1g4rbiqqubep5lrknk7s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutternotificationsapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
