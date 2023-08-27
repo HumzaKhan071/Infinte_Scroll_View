@@ -17,8 +17,7 @@ class NotificationServices {
       FlutterLocalNotificationsPlugin();
 
   String? deviceToken;
-  String serverKey =
-      "AAAAhXVPUdY:APA91bGFc59arrfxGQ1KhGx71EIsP3rRCu8vcNPspnB4reNzymsTROauo2IzRqpvcPQ5OeEITS6Sf3ht9oxz0qHkKWxuX8SXAGzpv80a_GYcSyVnRWpc934zQtg1NGgnQ4o5jcKh6Fgy";
+  String serverKey = "";
 
   //function to initialise flutter local notification plugin to show notifications for android when app is active
   void initLocalNotifications(
@@ -98,24 +97,23 @@ class NotificationServices {
       importance: Importance.max,
       showBadge: true,
       playSound: true,
-      
+
       // sound: const RawResourceAndroidNotificationSound('jetsons_doorbell')
     );
 
     AndroidNotificationDetails androidNotificationDetails =
         AndroidNotificationDetails(
-      channel.id.toString(),
-      channel.name.toString(),
-      channelDescription: 'your channel description',
-      importance: Importance.high,
-      priority: Priority.high,
-      playSound: true,
-      ticker: 'ticker',
-      icon: "@mipmap/ic_launcher"
-      //  sound: channel.sound
-      //     sound: RawResourceAndroidNotificationSound('jetsons_doorbell')
-      //  icon: largeIconPath
-    );
+            channel.id.toString(), channel.name.toString(),
+            channelDescription: 'your channel description',
+            importance: Importance.high,
+            priority: Priority.high,
+            playSound: true,
+            ticker: 'ticker',
+            icon: "@mipmap/ic_launcher"
+            //  sound: channel.sound
+            //     sound: RawResourceAndroidNotificationSound('jetsons_doorbell')
+            //  icon: largeIconPath
+            );
 
     const DarwinNotificationDetails darwinNotificationDetails =
         DarwinNotificationDetails(
